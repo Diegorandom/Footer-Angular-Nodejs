@@ -11,6 +11,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { BibliotecaSonoraComponent } from './components/biblioteca-sonora/biblioteca-sonora.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BibliotecaSonoraComponent } from './components/biblioteca-sonora/biblio
     LandingPageComponent,
     NavbarComponent,
     CarouselComponent,
-    BibliotecaSonoraComponent
+    BibliotecaSonoraComponent,
+    FooterComponent
   ],
   imports: [
     CarouselModule.forRoot(),
